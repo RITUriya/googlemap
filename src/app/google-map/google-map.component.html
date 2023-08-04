@@ -1,0 +1,10 @@
+<google-map
+  [center]="center"
+  [zoom]="zoom"
+  (mapClick)="mapClick($event)"
+  (mapMouseover)="mapMouseOver($event)"
+></google-map>
+
+<div>latitude:{{ display?.lat }}</div>
+
+<div>longitude:{{ display?.lng }}</div>
